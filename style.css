@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1D1F20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heading
+ {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    width: 99%;
+    color: white;
+ }
+
+ .heading h1 {
+    font-size: 4rem;
+ }
+
+ .heading h4 {
+    font-size: 1.5rem;
+ }
+
+
+.container {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+}
